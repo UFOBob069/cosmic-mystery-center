@@ -397,7 +397,7 @@ export default function HeroPage() {
                   <h3 className="text-2xl font-semibold mb-6">Contact Us</h3>
                   <p className="text-gray-300 mb-8">
                     For donation inquiries or to discuss sponsorship opportunities:<br />
-                    Email: <a href="mailto:donations@cosmicmystery.org" className="text-indigo-400 hover:text-indigo-300">donations@cosmicmystery.org</a><br />
+                    Email: <a href="mailto:donations@cosmicmystery.com" className="text-indigo-400 hover:text-indigo-300">donations@cosmicmystery.org</a><br />
                   </p>
                   <a 
                     href="#contact-form" 
