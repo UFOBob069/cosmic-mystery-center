@@ -128,16 +128,15 @@ export default function HeroPage() {
     ].map((item, index) => (
       <div
         key={index}
-        className="flex flex-col items-center md:flex-row md:gap-3 bg-slate-800/80 backdrop-blur-md rounded-lg p-4 transform hover:-translate-y-1 transition-all duration-300"
+        className="flex items-center gap-3 bg-slate-800/80 backdrop-blur-md rounded-lg p-4 w-full sm:w-auto sm:flex-1 transform hover:-translate-y-1 transition-all duration-300"
       >
         <item.icon className="text-indigo-400" size={24} />
-        <span className="text-sm font-medium text-center md:text-left">
-          {item.text}
-        </span>
+        <span className="text-sm font-medium">{item.text}</span>
       </div>
     ))}
   </div>
 </div>
+
         {/* Founders Section */}
         <div id="about" className="py-32 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900 to-slate-800 opacity-50" />
