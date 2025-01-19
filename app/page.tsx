@@ -44,11 +44,11 @@ const structuredData = {
   ],
   location: {
     '@type': 'Place',
-    name: 'Cedar Rapids',
+    name: 'West Lafayette',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Cedar Rapids',
-      addressRegion: 'IA',
+      addressLocality: 'West Lafayette',
+      addressRegion: 'IN',
       addressCountry: 'US',
     },
   },
@@ -181,13 +181,13 @@ export default function HeroPage() {
 
               <div className="max-w-4xl mx-auto">
                 <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                  Founded by visionaries David Eagan and Kurt Arbuckle, the Cosmic Mystery Center emerged from a series of extraordinary encounters that defied conventional explanation. What began as teenage curiosity in Cedar Rapids transformed into a globally recognized institution at the forefront of paranormal research.
+                  Founded by visionaries David Eagan and Kurt Arbuckle, the Cosmic Mystery Center emerged from a series of extraordinary encounters that defied conventional explanation. What began as teenage curiosity in West Lafayette transformed into a globally recognized institution at the forefront of paranormal research.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                   <div className="bg-slate-800/50 backdrop-blur-md rounded-xl p-8">
                     <h3 className="text-2xl font-semibold mb-4 text-indigo-400">The First Encounter</h3>
                     <p className="text-gray-300">
-                      In their junior year of high school, Eagan and Arbuckle documented their first unexplained phenomenon—a series of geometric light formations above Cedar Rapids that defied known aircraft patterns and atmospheric conditions. This event catalyzed their lifelong pursuit of understanding the unknown.
+                      In their junior year of high school, Eagan and Arbuckle documented their first unexplained phenomenon—a series of geometric light formations above West Lafayette that defied known aircraft patterns and atmospheric conditions. This event catalyzed their lifelong pursuit of understanding the unknown.
                     </p>
                   </div>
                   <div className="bg-slate-800/50 backdrop-blur-md rounded-xl p-8">
