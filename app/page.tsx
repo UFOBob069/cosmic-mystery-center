@@ -103,7 +103,7 @@ export default function HeroPage() {
                   Cosmic Mystery Center
                 </h1>
                 <p className="mt-6 text-xl md:text-2xl leading-8 text-gray-300 max-w-3xl mx-auto">
-                  Unveiling the Universe's Greatest Enigmas Through Scientific Discovery
+                  Unveiling the Universe&apos;s Greatest Enigmas Through Scientific Discovery
                 </p>
                 <div className="mt-12 flex items-center justify-center gap-x-6">
                   <a href="#about" className="rounded-md bg-gradient-to-r from-indigo-600 to-purple-600 px-8 py-4 text-lg font-semibold shadow-lg hover:from-indigo-500 hover:to-purple-500 transition-all duration-300">
@@ -251,7 +251,7 @@ export default function HeroPage() {
                   title: "Sacred Valley Expedition",
                   location: "Cusco Region",
                   image: "/images/sacred-valley.jpg",
-                  desc: "Leading a multi-disciplinary research team through Peru's Sacred Valley, we investigated archaeological anomalies and documented oral histories about unexplained phenomena, combining modern technology with traditional knowledge.",
+                  desc: "Leading a multi-disciplinary research team through Peru&apos;s Sacred Valley, we investigated archaeological anomalies and documented oral histories about unexplained phenomena, combining modern technology with traditional knowledge.",
                   stats: ["25 Site Surveys", "40+ Local Interviews", "Artifact Analysis"]
                 }
               ].map((project, index) => (
