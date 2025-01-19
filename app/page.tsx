@@ -118,26 +118,26 @@ export default function HeroPage() {
           </div>
 
           {/* Floating Achievement Cards */}
-          <div className="absolute bottom-0 left-0 right-0 overflow-hidden">
-            <div className="flex justify-center gap-4 mb-8">
-              {[
-                { icon: Star, text: '150+ Expeditions' },
-                { icon: MapPin, text: '47 Countries' },
-                { icon: Award, text: 'Global Recognition' },
-                { icon: Radio, text: 'Advanced Research' }
-              ].map((item, index) => (
-                <div
-                  key={index}
-                  className="bg-slate-800/80 backdrop-blur-md rounded-lg p-4 flex items-center gap-3 transform hover:-translate-y-1 transition-all duration-300"
-                >
-                  <item.icon className="text-indigo-400" size={24} />
-                  <span className="text-sm font-medium">{item.text}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
+<div className="absolute bottom-0 left-0 right-0 overflow-hidden">
+  <div className="flex flex-wrap justify-center gap-4 p-4 mb-8">
+    {[
+      { icon: Star, text: '150+ Expeditions' },
+      { icon: MapPin, text: '47 Countries' },
+      { icon: Award, text: 'Global Recognition' },
+      { icon: Radio, text: 'Advanced Research' },
+    ].map((item, index) => (
+      <div
+        key={index}
+        className="flex flex-col items-center md:flex-row md:gap-3 bg-slate-800/80 backdrop-blur-md rounded-lg p-4 transform hover:-translate-y-1 transition-all duration-300"
+      >
+        <item.icon className="text-indigo-400" size={24} />
+        <span className="text-sm font-medium text-center md:text-left">
+          {item.text}
+        </span>
+      </div>
+    ))}
+  </div>
+</div>
         {/* Founders Section */}
         <div id="about" className="py-32 relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900 to-slate-800 opacity-50" />
@@ -251,7 +251,7 @@ export default function HeroPage() {
                   title: "Sacred Valley Expedition",
                   location: "Cusco Region",
                   image: "/images/sacred-valley.jpg",
-                  desc: "Leading a multi-disciplinary research team through Peru&apos;s Sacred Valley, we investigated archaeological anomalies and documented oral histories about unexplained phenomena, combining modern technology with traditional knowledge.",
+                  desc: "Leading a multi-disciplinary research team through Perus Sacred Valley, we investigated archaeological anomalies and documented oral histories about unexplained phenomena, combining modern technology with traditional knowledge.",
                   stats: ["25 Site Surveys", "40+ Local Interviews", "Artifact Analysis"]
                 }
               ].map((project, index) => (
